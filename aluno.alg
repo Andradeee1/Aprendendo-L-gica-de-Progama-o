@@ -3,9 +3,9 @@ algoritmo "Aluno APROVEITAMENTO"
 var
    nota1, nota2, media: Real
 inicio
-      EscrevaL("--------------------------------")
-      EscrevaL(" Escolinha do Professor Raimundo")
-      EscrevaL("--------------------------------")
+      EscrevaL("---------------------------------")
+      EscrevaL(" Escolinha do Professor Raimundo ")
+      EscrevaL("---------------------------------")
       Escreva("Primeira Nota: ")
       Leia(nota1)
       Escreva("Segunda Nota: ")
@@ -15,7 +15,7 @@ inicio
 
       EscrevaL("-----------------------")
       EscrevaL(" MEDIA: ", media:3:1)
-      
+
       Se (media >= 9) e (media <= 10) entao
          EscrevaL(" APROVEITAMENTO A")
       senao
@@ -37,6 +37,6 @@ inicio
                 FimSe
            FimSe
       FimSe
-      EscrevaL("--------------------------------")
-      
+      EscrevaL("-----------------------")
+
 fimalgoritmo
